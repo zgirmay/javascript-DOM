@@ -35,5 +35,7 @@ function handleSearchButtonClick() {
     var filterCountry = $countryInput.value.trim();
     var filterShape = $shapeInput.value.trim();
     renderTable();
+    console.log()
 };
 renderTable();
+console.log()
